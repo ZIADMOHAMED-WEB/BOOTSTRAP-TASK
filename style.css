@@ -1,0 +1,50 @@
+    .navbar-custom {
+      background-color: #000 !important; 
+    }
+    .navbar-custom .nav-link,
+    .navbar-custom .navbar-brand,
+    .navbar-custom .dropdown-item {
+      color: #fff !important; 
+    }
+    .navbar-custom .nav-link.active {
+      color: #ccc !important; 
+    }
+    .brand {
+        margin: 5px;  
+        text-align: center; 
+        letter-spacing: 3px ;
+
+    }
+    .italic {
+        text-align: center; 
+
+    }
+
+    #p{
+        text-align: center;
+
+    }
+
+    .containerTOUR{
+        color: #fff !important;
+        background-color: #000 !important;
+
+
+    }
+    .dates{
+        color: #757575; 
+        background-color: #fff;
+       
+    }
+    .btn {
+        background-color: #000; /* Black background */
+        color: #fff; /* White text color */
+        border: none; /* Remove border if desired */
+        transition: background-color 0.3s ease; /* Smooth transition effect */
+    }
+    
+    .btn:hover {
+        background-color: #6c757d; /* Grey color on hover */
+        color: #fff; /* Optional: keep text color white on hover */
+    }
+    

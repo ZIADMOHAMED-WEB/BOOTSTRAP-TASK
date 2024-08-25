@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> bootstrap task</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Band</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">merch</a></li>
+                  <li><a class="dropdown-item" href="#">extras</a></li>
+                  <li><a class="dropdown-item" href="#">media</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-danger" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.w3schools.com/w3images/la.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.w3schools.com/w3images/ny.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.w3schools.com/w3images/chicago.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container">
+        
+        <h2  class="brand"> THE Band   </h2> 
+        <div  class="italic">
+        <i > we love music</i></div>
+        <p>
+            
+            We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+        </p>
+
+        <div class="d-flex justify-content-around">
+            <div class="card1" style="width: 18rem;">
+              <p id="p">Name</p>
+              <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card1" style="width: 18rem;">
+              <p id="p">Name</p>
+              <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card1" style="width: 18rem;">
+              <p id="p">Name</p>
+              <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+
+        <div class="containerTOUR">
+
+            <h2  class="brand"> TOUR DATES   </h2> 
+            <div  class="italic">
+            <i > Remember to book your tickets!</i>
+        </div>
+        <ul class="dates">
+         <li class="months"> septemper
+         ,<span class="--bs-danger"> sold out</span>   
+         </li>
+         <li class="months"> october
+            ,<span> sold out</span>   
+            </li>
+            <li class="months"> november
+                ,<span> 3</span>   
+                </li>
+
+        
+        
+        </ul>
+
+
+        <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.w3schools.com/w3images/newyork.jpg" class="card-img-top" alt="NEW YORK">
+                  <div class="card-body">
+                    <h5 class="card-title">NEW YORK</h5>
+                    <P>Fri 27 Nov 2016</P>
+                    <p class="card-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo</p>
+                    <a href="#" class="btn">BUY tickets</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.w3schools.com/w3images/newyork.jpg" class="card-img-top" alt="NEW YORK">
+                  <div class="card-body">
+                    <h5 class="card-title">NEW YORK</h5>
+                    <P>Fri 27 Nov 2016</P>
+                    <p class="card-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo</p>
+                    <a href="#" class="btn">BUY tickets</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.w3schools.com/w3images/newyork.jpg" class="card-img-top" alt="NEW YORK">
+                  <div class="card-body">
+                    <h5 class="card-title">NEW YORK</h5>
+                    <P>Fri 27 Nov 2016</P>
+                    <p class="card-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo</p>
+                    <a href="#" class="btn">BUY tickets</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          </div>
+
+          <div class="container">
+
+            <h2  class="brand"> CONTACT   </h2> 
+            <div  class="italic">
+            <i > Fan? Drop a note!</i>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="NAME" class="form-control" id="NAME" placeholder="NAME">
+            <label for="NAME">NAME</label>
+          </div>
+          <div class="form-floating">
+            <input type="MESSAGE" class="form-control" id="MESSAGE" placeholder="MESSAGE">
+            <label for="MESSAGE">MESSAGE</label>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">SEND</button>
+          </div>
+          </div>
+
+          <img src="https://www.w3schools.com/w3images/map.jpg" class="d-block w-100" alt="...">
+    </div>
+      
+
+     
+
+</body>
+</html>
+
+
